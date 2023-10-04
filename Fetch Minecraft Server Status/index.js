@@ -11,23 +11,23 @@ async function mcservstatus(a){
          "Version": "Version: `N/A`"
       }
       let str = data.motd.raw.join('\n');
-      str = str.replace(/§0/g, 'm')
-      str = str.replace(/§8/g, 'm')
-      str = str.replace(/§4/g, 'm')
-      str = str.replace(/§c/g, 'm')
-      str = str.replace(/§2/g, 'm')
-      str = str.replace(/§a/g, 'm')
-      str = str.replace(/§6/g, 'm')
-      str = str.replace(/§e/g, 'm')
-      str = str.replace(/§1/g, 'm')
-      str = str.replace(/§9/g, 'm')
-      str = str.replace(/§5/g, 'm')
-      str = str.replace(/§d/g, 'm')
-      str = str.replace(/§3/g, 'm')
-      str = str.replace(/§b/g, 'm')
-      str = str.replace(/§7/g, 'm')
-      str = str.replace(/§f/g, 'm')
-      str = str.replace(/§r/g, 'm')
+      str = str.replace(/§0/g, '[1;30m')
+      str = str.replace(/§8/g, '[1;30m')
+      str = str.replace(/§4/g, '[1;31m')
+      str = str.replace(/§c/g, '[1;31m')
+      str = str.replace(/§2/g, '[1;32m')
+      str = str.replace(/§a/g, '[1;32m')
+      str = str.replace(/§6/g, '[1;33m')
+      str = str.replace(/§e/g, '[1;33m')
+      str = str.replace(/§1/g, '[1;34m')
+      str = str.replace(/§9/g, '[1;34m')
+      str = str.replace(/§5/g, '[1;35m')
+      str = str.replace(/§d/g, '[1;35m')
+      str = str.replace(/§3/g, '[1;36m')
+      str = str.replace(/§b/g, '[1;36m')
+      str = str.replace(/§7/g, '[1;37m')
+      str = str.replace(/§f/g, '[1;37m')
+      str = str.replace(/§r/g, '[1;37m')
       str = str.replace(/§k/g, '')
       str = str.replace(/§l/g, '')
       str = str.replace(/§m/g, '')
@@ -35,7 +35,7 @@ async function mcservstatus(a){
       str = str.replace(/§o/g, '')
 
       info["Ip"] = "Ip: `"+data.ip+":"+data.port+"`"
-      info["Motd"] = "Motd: ```ansi\nm"+str+"\n```"
+      info["Motd"] = "Motd: ```ansi\n"+str+"\n```"
       if (data.players.list == undefined){
             info["Playing"] = "Playing: `"+data.players.online+"`"
       }
