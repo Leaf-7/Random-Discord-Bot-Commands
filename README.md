@@ -7,4 +7,4 @@ NOTE 1: In fetch.js, replace `<Insert File Path of 'index.js'>` with the path of
 
 NOTE 2: Place fetch.js in the commands folder.
 
-Note 3: You muct have `node-fecth@2` library for index.js.
+NOTE 3: You muct have `node-fecth@2` library for index.js.
