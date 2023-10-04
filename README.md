@@ -1,2 +1,2 @@
-# a-general-discord-bot
-its a discord bot ig
+# Discord bot commands
+## Fetch Minecraft server status:
