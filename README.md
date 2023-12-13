@@ -11,7 +11,7 @@ NOTE 2: You muct have the `node-fecth@2` library for mcfetch.js.
 
 The API used: https://api.mcsrvstat.us/
 
-## Fetch User Details on Quaver
+## Fetch User Details on Quaver:
 THIS IS CURRENTLY BEING WORKED ON
 Fetches details of a user on Quaver, such as avatar, country, last online, and 4 key and 7 key preformance. Command: `/qgetuser username:<Enter User ID>`.
 
