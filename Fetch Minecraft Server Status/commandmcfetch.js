@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
-const { mcservstatus } = require("../../logic/mcfetch.js")
+const { mcservstatus } = require("<Insert File Path of 'mcfetch.js'>")
 
 module.exports = {
     data: new SlashCommandBuilder()
