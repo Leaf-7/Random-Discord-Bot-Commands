@@ -1,7 +1,7 @@
 # Random Discord Bot Commands
-This is a list of commands that I made for my discord bot, using Node.JS! This presumes you already have prior knowledge on `discord.js`! (I'm still quite new to Node.JS) (I'm doing this just for fun, don't expect me to actively maintain this!)
+This is a list of commands that I made for my discord bot, using Node.JS! (I'm still quite new to Node.JS) (I'm doing this just for fun, don't expect me to actively maintain this!)
 
-This uses the `Discord.js` Library
+This uses the `Discord.js` Library. This presumes you already have prior knowledge on `Discord.js`! 
 ## Fetch Minecraft Server Status:
 Fetches the status of a Minecraft server. Fetches the Ip address, Motd, Player count, Player names (where possible) and version number. Command: `/mcfetch ip:<Enter IP Address>`.
 
