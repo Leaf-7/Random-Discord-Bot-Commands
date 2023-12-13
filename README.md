@@ -18,3 +18,5 @@ Fetches details of a user on Quaver, such as avatar, country, last online, and 4
 NOTE 1: In commandquavergetuser.js, replace `<Insert File Path of 'quavergetuser.js'>` with the path of quavergetuser.js.
 
 NOTE 2: You muct have the `node-fecth@2` library for quavergetuser.js.
+
+The API used: https://wiki.quavergame.com/docs/api
