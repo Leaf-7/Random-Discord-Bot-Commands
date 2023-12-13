@@ -1,10 +1,10 @@
 const { SlashCommandBuilder } = require('discord.js');
 const { EmbedBuilder } = require('discord.js');
-const { mcservstatus } = require("<Insert File Path of 'index.js'>")
+const { mcservstatus } = require("../../logic/mcfetch.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('fetch')
+        .setName('mcfetch')
         .setDescription('Fetches server info on a Minecraft server!')
         .addStringOption(option =>
             option.setName('ip')
